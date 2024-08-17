@@ -159,9 +159,6 @@ void Game::update(float delta)
 
 	this->spawnSwagBalls(delta);
 
-	for (auto ball : this->swagBalls) {
-		ball.update(delta);
-	}
 
 	this->updatePlayer(delta);
 	this->updateCollision();
